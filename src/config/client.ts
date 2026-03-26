@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Phil Mead", rating: 5, text: "Dan & Iona, as a team, are a dedicated, hard working and meticulous couple about their work ethos, which actually makes it easier to understand their dedication in what they do. It all gets 100% effort in whatever they are doing and …  +2 ", date: "2 years ago" },
+    { name: "John Dunmow", rating: 5, text: "We have used Dan and his team for several projects now, each with excellent results. We would not hesitate to recommend him and if we have any future projects Dan will be the man we will call. Very knowledgeable, friendly, and uses his own initiative", date: "2 years ago" },
+    { name: "Paula Davies", rating: 5, text: "Dan was very helpful with discussing our design for a complete garden makeover, suggesting little changes which improved it enormously. He arrived when he said he would each day and worked to a very high standard. We are extremely pleased …  ", date: "7 years ago" },
+    { name: "Simon Spencer", rating: 5, text: "Dan and his team were fantastic,  They worked hard, non-stop (apart from the occasional cup of tea and a biscuit), and the work they did (to Dan's design) was just what we needed.  We will use them again without a moments hesitation. ", date: "6 years ago" },
+    { name: "Barry Rogers", rating: 5, text: "Have used Dan's services twice in the last few months & both times the end results have been excellent. Highly recommend. ", date: "3 years ago" },
+    { name: "Iona Service", rating: 5, text: "Stunning design ideas, excellent execution, he was on time, tidy and has transformed our garden. I am so glad we found him. I highly recommend him ", date: "8 years ago" },
+    { name: "Caroline Smith", rating: 5, text: "Perfect,,Precise,,Punctual,,Perfection,,highly Recommended without any question.. ", date: "9 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
